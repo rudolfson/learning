@@ -1,3 +1,3 @@
 # learning
 
-Snippets and solutions from books, turorials and so on.
+Snippets and solutions from books, tutorials and so on.
