@@ -40,4 +40,4 @@ def valueAs(closure) {
 }
 
 Integer.metaClass.getShares = { -> delegate }
-Integer.metaClass.of = { instrument -> [instrument, delegate]
+Integer.metaClass.of = { instrument -> [instrument, delegate] }

@@ -1,6 +1,6 @@
-newOrder.toBuy(100.shares.of('IBM')) {
+newOrder.to.buy(100.shares.of('IBM')) {
     limitPrice  300
     allOrNone   true
-    valuesAs    { qty, unitPrice -> qty * unitPrice - 500 }
+    valueAs    { qty, unitPrice -> qty * unitPrice - 500 }
 }
 
