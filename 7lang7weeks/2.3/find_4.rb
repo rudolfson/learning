@@ -1,11 +1,12 @@
-# arrays as stack
+puts 'arrays as stack'
 a = []
 a.push("a")
 a.push('b')
-puts a.pop
-puts a.pop
+until a.empty? do
+    p a.pop
+end
 
-# arrays as queue
+puts 'arrays as queue'
 a = []
 a << 1
 a << 2
