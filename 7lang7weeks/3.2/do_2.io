@@ -2,7 +2,7 @@
 
 exe := Object clone
 exe script := "1 + 1"
-doString(exe script) println
+doString(exe getSlot("script")) println
 
 exe := method()
  
